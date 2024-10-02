@@ -5,32 +5,33 @@ Tugas ini merupakan simulasi Ujian Tengah Semester yaitu membuat aplikasi `CRUD`
 
 ## Langkah-langkah
 1. Membuat koneksi baru di Java yang disambungkan dengan Postgresql. Klik kanan pada Database yang ada di menu service, lalu new connection dan memilih postgresql.
+   
    ![Screenshot 2024-10-01 142934](https://github.com/user-attachments/assets/36fc07f9-18c5-422c-881e-f8b77a54f314)
    ![Screenshot 2024-10-01 142950](https://github.com/user-attachments/assets/42db1073-8984-4948-a9ef-9fd38acf5fcf)
-2. Mengisi dan menyesuaikan dengan databse yang telah dibuat. Kemudian ppilih public dan finish.
+3. Mengisi dan menyesuaikan dengan database yang telah dibuat. Kemudian pilih public dan finish.
    ![Screenshot 2024-10-01 143036](https://github.com/user-attachments/assets/69ad7830-f3ce-4ff4-9bf4-fbfb73410fcc)
    ![Screenshot 2024-10-01 143047](https://github.com/user-attachments/assets/415550da-5671-4824-85ad-acec73c09e74)
    ![Screenshot 2024-10-01 143100](https://github.com/user-attachments/assets/10fceb75-7fec-4d33-b873-ef69044c5af6)
-3. Kemudian, membuat library baru untuk mengkoneksikan ke database kita dengan klik kanan pada Library, lalu Add Library dan pilih Postgresql JDBC Driver.
+4. Kemudian, membuat library baru untuk mengkoneksikan ke database kita dengan klik kanan pada Library, lalu Add Library dan pilih Postgresql JDBC Driver.
    ![Screenshot 2024-10-01 143129](https://github.com/user-attachments/assets/ff429b94-9655-4634-b2b5-89aaadd21c58)
    ![Screenshot 2024-10-01 143152](https://github.com/user-attachments/assets/4c353e70-2620-4390-9d2d-2ff3d41cf281)
-4. Ini adalah tampilan ketika kita sudah add library kita dengan JDBC Driver Postgresql.
+5. Ini adalah tampilan ketika kita sudah add library kita dengan JDBC Driver Postgresql.
    ![Screenshot 2024-10-01 143202](https://github.com/user-attachments/assets/064d6cd3-8c04-4785-bce1-91bcb33377e7)
-5. selanjutnya adalah membuat desain Java Swing dengan cara klik kanan pada package yang telah dibuat, lalu pilih Jframe From.
+6. selanjutnya adalah membuat desain Java Swing dengan cara klik kanan pada package yang telah dibuat, lalu pilih Jframe From.
    ![Screenshot 2024-10-01 143245](https://github.com/user-attachments/assets/1fc6a5fc-0826-4a6e-af55-88e944973f1d)
-6. Beri nama pada Jframe From nya, disini saya memberi nama yaitu simulasi_06.
+7. Beri nama pada Jframe From nya, disini saya memberi nama yaitu simulasi_06.
    ![Screenshot 2024-10-01 143326](https://github.com/user-attachments/assets/3f2fa92a-bf7b-4323-929f-2278dbc77978)
-7. Berikut adalah desain yang telah saya buat.
+8. Berikut adalah desain yang telah saya buat.
    ![Screenshot 2024-10-02 065107](https://github.com/user-attachments/assets/af8aa20b-0573-4afe-bf4d-ed152e403d98)
-8. Kemudian, terlebih dahulu saya membuat class DbUtils pada package yang sama.
+9. Kemudian, terlebih dahulu saya membuat class DbUtils pada package yang sama.
    ![Screenshot 2024-10-01 150154](https://github.com/user-attachments/assets/a308f993-8db5-48e6-a33a-da6c3455730b)
-9. Sebelum lanjut ke tahap selanjutnya, kita harus membuat tabel yang ada di database kita. Berikut adalah query dari pembuatan tabel dalam database saya dengan beberapa atribut yang sudah ditentukan.
+10. Sebelum lanjut ke tahap selanjutnya, kita harus membuat tabel yang ada di database kita. Berikut adalah query dari pembuatan tabel dalam database saya dengan beberapa atribut yang sudah ditentukan.
    ![Screenshot 2024-10-01 161924](https://github.com/user-attachments/assets/bcfbb18d-63bd-4a7d-b145-92bd8f5a05d1)
-10. Berikut adalah source code dalam class DbUtils.
+11. Berikut adalah source code dalam class DbUtils.
     ![Screenshot 2024-10-02 065544](https://github.com/user-attachments/assets/5d6acdbc-af77-4eb2-b7cc-0f5a05f0de1a)
-11. Berikut adalah source code dari Connection to Database.
+12. Berikut adalah source code dari Connection to Database.
     ![Screenshot 2024-10-02 065835](https://github.com/user-attachments/assets/74479f53-dcbc-4b86-8cdb-5e93c2753ef3)
-12. Berikut adalah source code dari Insert.
+13. Berikut adalah source code dari Insert.
     ![Screenshot 2024-10-02 065851](https://github.com/user-attachments/assets/2f2ac1c7-66ec-4f66-b374-f4d092524bc3)
     dalam insert kita harus mengisi pertanyaan yang ada, kemudian akan bisa melakukan aksi insert. jika kita mengosongi salah satunya, maka program tidak akan berjalan dan ada pop up peringatannya.
 14. Berikut adalah source code dari Update.
